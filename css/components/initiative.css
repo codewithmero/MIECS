@@ -1,0 +1,124 @@
+.card {
+    width: 30rem;
+    height: 42rem;
+    background: white;
+    position: relative;
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
+    position: relative;
+}  
+
+.card::before {
+    content: "";
+    position: absolute;
+    width: 30rem; 
+    height: 42rem;
+    left: -5rem;
+    top: -4.5rem;
+    background-image: radial-gradient(var(--color-tertiary-dark) 10%, transparent 10%);
+    background-color: #fff;
+    background-position: 0 0, 2rem 2rem;
+    background-size: 1.2rem 1.2rem;
+    z-index: -1;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 16rem;
+}
+
+.card__strip {
+    position: absolute;
+    width: 1.5rem;
+    height: 2.5rem;
+    right: 0;
+    top: 0;
+}
+
+.card__strip--green {
+    background-image: linear-gradient(to right bottom, var(--color-tertiary-light), var(--color-tertiary-dark));
+}
+  
+.card__img {
+    width: 23rem;
+    height: 14rem;
+    margin: 2.5rem auto;
+}
+
+.card__img--1 {
+    background-image: url(../../img/financialliteracy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.card__img--2 {
+    background-image: url(../../img/selfhelpgroup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.card__img--3 {
+    background-image: url(../../img/fpopromotion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.card__img--4 {
+    background-image: url(../../img/ruraldevelopment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.card__img--5 {
+    background-image: url(../../img/skilldevelopment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.card__img--6 {
+    background-image: url(../../img/waterconservation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+  
+.card__content {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.card__heading {
+    font-family: 'Playfair Display', sans-serif, Verdana;
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.card__paragraph {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--color-dark-grey);
+}
+
+/* Media query */
+@media(max-width: 900px) {
+    .card:not(:last-child) {
+        margin-right: 0rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media(max-width: 415px) {
+    .card::before {
+        width: 35rem;
+        left: 50%;
+        top: -2.5rem;
+        transform: translateX(-50%);
+    }
+}

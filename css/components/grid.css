@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex:not(:last-child) {
+    margin-bottom: 10rem;
+}
+
+/* Media Query */
+/* for details section */
+@media(max-width: 1100px) {
+    .flex__details {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* for about section */
+@media(max-width: 700px) {
+    .flex__about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex:not(:last-child) {
+        margin-bottom: 8rem;
+    }
+}
+
+/* for initiatives section */
+@media(max-width: 900px) {
+    .flex__initiatives {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* for testimonial section */
+@media(max-width: 1260px) {
+    .flex__testimonial {
+        flex-direction: column;
+        align-items: center;
+    }
+}

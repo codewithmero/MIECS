@@ -1,0 +1,44 @@
+/* Top margin */
+.u-margin-top-short {
+    margin-top: 0.8rem;
+}
+
+.u-margin-top-small {
+    margin-top: 1.5rem;
+}
+
+.u-margin-top-medium {
+    margin-top: 2.5rem;
+}
+
+.u-margin-top-large {
+    margin-top: 4rem;
+}
+
+// Text colors
+.orange {
+    color: var(--color-theme);
+}
+
+.soil {
+    color: var(--color-soil);
+}
+
+.container {
+    width: 120rem;
+    max-width: 90%;
+    margin: 0rem auto 2rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.small {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.underline {
+    text-decoration: underline;
+}

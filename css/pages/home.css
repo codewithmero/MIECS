@@ -1,0 +1,39 @@
+.section-about {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    /* padding: 5rem; */
+    background: var(--color-white);
+
+    position: relative;
+    z-index: -5;
+}
+
+.section-details {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    background: var(--color-dirty);
+
+    position: relative;
+    z-index: -5;
+}
+
+.section-initiatives {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    background: var(--color-white);
+
+    position: relative;
+    z-index: -5;
+}
+
+.section-testimonial {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    background: var(--color-dirty);
+
+    position: relative;
+}

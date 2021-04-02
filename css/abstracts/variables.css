@@ -1,0 +1,42 @@
+:root {
+    --color-primary: #caf1de;
+    --color-secondary: #f2fdff;
+    --color-light: #efefef;
+    --color-white: #fff;
+    --color-dark: #3a3a3a;
+    --color-fade: #727272;
+    --color-black: #000;
+    --color-grey: #eeeeee;
+    --color-dark-grey: #b8b8b8;
+    --color-dirty: #f7f4f4;
+    --color-theme: orange;
+    --color-soil: #c59a29;
+    --color-royal: #061e5f;
+    --color-royal-dark: #030d2b;
+    --color-yellow: rgb(176, 179, 2);
+
+    --color-one: #e6f7ff;
+    --color-two: #fcef7c;
+    --color-three: #85fbc7;
+
+    --color-primary-light: rgb(41, 152, 255);
+    --color-primary-dark: rgb(86, 67, 250);
+
+    --color-secondary-light: rgb(255, 185, 0); 
+    --color-secondary-dark: rgb(255, 119, 48);
+
+    --color-tertiary-light: rgb(126, 213, 111); 
+    --color-tertiary-dark: rgb(40, 180, 133);
+
+    --color-quad-light:rgb(255, 184, 140);
+    --color-quad-dark: rgb(222, 98, 98); 
+
+    /* Dooted pattern */
+    /* Colors */
+    --bg-color: #fff;
+    --dot-color: #000;
+
+    /* Dimensions */
+    --dot-size: 2px;
+    --dot-space: 22px;
+}

@@ -1,0 +1,43 @@
+.button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, .25);
+    font-size: 1.3rem;
+}
+
+.button__primary {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.button__cbutton {
+    display: inline-block;
+    margin-top: 1.6rem;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.button__green {
+    background-image: linear-gradient(to right bottom, var(--color-tertiary-light), var(--color-tertiary-dark));
+    color: #fff;
+}
+
+.button__round {
+    border-radius: 20rem;
+}
+
+/* Media Query */
+@media(max-width: 600px) {
+    .button {
+        padding: 1rem 2rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .button {
+        padding: 1.2rem 2.4rem;
+        font-size: 1.5rem;
+    }
+}
+

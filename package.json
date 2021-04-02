@@ -1,0 +1,14 @@
+{
+  "name": "miecs",
+  "version": "1.0.0",
+  "description": "A small static website for my NGO.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
