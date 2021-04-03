@@ -25,8 +25,8 @@
     --color-secondary-light: rgb(255, 185, 0); 
     --color-secondary-dark: rgb(255, 119, 48);
 
-    --color-tertiary-light: rgb(126, 213, 111); 
-    --color-tertiary-dark: rgb(40, 180, 133);
+    --color-tertiary-light: #7ed56f; 
+    --color-tertiary-dark: #28b485;
 
     --color-quad-light:rgb(255, 184, 140);
     --color-quad-dark: rgb(222, 98, 98); 
