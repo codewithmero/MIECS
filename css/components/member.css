@@ -6,14 +6,15 @@
     background-position: center center;
     box-sizing: 0 0.3rem 0.4rem rgba(0, 0, 0, .25);
     position: relative;
-    /* z-index: 10; */
+    outline: 0.8rem solid var(--color-dirty);
+    outline-offset: -1.9rem;
 }
 
 
 .member::before {
     content: "";
     position: absolute;
-    width: 10rem; 
+    width: 25.5rem; 
     height: 18rem;
     left: -5rem;
     bottom: -5rem;

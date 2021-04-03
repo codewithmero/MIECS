@@ -7,6 +7,8 @@
 
     position: relative;
     z-index: -5;
+    outline: 0.8rem solid var(--color-dirty);
+    outline-offset: -2rem;
 }
 
 .section-details {
@@ -27,6 +29,8 @@
 
     position: relative;
     z-index: -5;
+    outline: 0.8rem solid var(--color-dirty);
+    outline-offset: -2rem;
 }
 
 .section-testimonial {

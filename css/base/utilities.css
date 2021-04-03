@@ -12,10 +12,10 @@
 }
 
 .u-margin-top-large {
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
-// Text colors
+/* Text colors */
 .orange {
     color: var(--color-theme);
 }
@@ -27,7 +27,7 @@
 .container {
     width: 120rem;
     max-width: 90%;
-    margin: 0rem auto 2rem;
+    margin: 4rem auto 2rem;
 }
 
 .bold {
