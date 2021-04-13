@@ -75,4 +75,13 @@
         background: var(--color-white);
         box-shadow: 0 0.3rem 0.4rem rgba(51, 32, 32, 0.25);
     }
+
+    .testimonial::after {
+        content: "\0275E";
+        position: absolute;
+        font-size: 10rem;
+        color: var(--color-grey);
+        left: 1.5rem;
+        top: -2rem;
+    }
 }
