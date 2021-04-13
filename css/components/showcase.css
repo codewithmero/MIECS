@@ -133,10 +133,30 @@
 }
 
 @media(max-width: 415px) {
+    .showcase {
+        background: var(--color-white);
+        height: 50rem;
+        width: 30rem;
+        /* margin: 0 auto; */
+        position: relative;
+        box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.15);
+    }
+
     .showcase::before {
         width: 35rem;
         left: 50%;
         top: -2.5rem;
         transform: translateX(-50%);
+        display: none;
+    }
+
+    .showcase__info::before {
+        content: "\0275D";
+        position: absolute;
+        font-size: 8rem;
+        font-weight: bold;
+        color: var(--color-grey);
+        top: -1rem;
+        left: 1rem;
     }
 }

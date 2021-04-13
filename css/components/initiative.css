@@ -115,10 +115,33 @@
 }
 
 @media(max-width: 415px) {
+    .card {
+        width: 25rem;
+        height: 42rem;
+        background: white;
+        position: relative;
+        box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
+        position: relative;
+    }  
+/* 
     .card::before {
         width: 35rem;
         left: 50%;
         top: -2.5rem;
+        display: none;
         transform: translateX(-50%);
+    } */
+    .card::before {
+        content: "";
+        position: absolute;
+        width: 25rem; 
+        height: 42rem;
+        left: -2.2rem;
+        top: -2.5rem;
+        background-image: radial-gradient(var(--color-tertiary-dark) 10%, transparent 10%);
+        background-color: #fff;
+        background-position: 0 0, 2rem 2rem;
+        background-size: 1.2rem 1.2rem;
+        z-index: -1;
     }
 }
