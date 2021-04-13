@@ -79,9 +79,9 @@
     .testimonial::after {
         content: "\0275E";
         position: absolute;
-        font-size: 10rem;
+        font-size: 8rem;
         color: var(--color-grey);
-        left: 1.5rem;
-        top: -2rem;
+        left: 3rem;
+        top: -1rem;
     }
 }
