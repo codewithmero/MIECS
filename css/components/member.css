@@ -177,3 +177,53 @@
         font-size: 1rem;
     }
 }
+
+@media(max-width: 400px) {
+    
+    .member {
+        width: 25rem;
+        height: 35rem;
+    }
+
+    .member:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 8rem;
+    }
+
+    .member::before {
+        content: "";
+        position: absolute;
+        width: 25.5rem; 
+        height: 18rem;
+        left: -3rem;
+        bottom: -2rem;
+        background-image: radial-gradient(#212121 10%, transparent 10%);
+        background-color: #fff;
+        background-position: 0 0, 2rem 2rem;
+        background-size: 1.2rem 1.2rem;
+        z-index: -1;
+    }
+
+    .member__details {
+        width: 18rem;
+        height: 8rem;
+    }
+
+    .member__details .name::before {
+        content: "";
+        position: absolute;
+        width: 1.6rem;
+        height: 2px;
+        background: var(--color-black);
+        left: -3rem;
+        top: 1.5rem;
+    }
+
+    .member__details .name {
+        font-size: 1.7rem;
+    }
+
+    .member__details .designation {
+        font-size: 1rem;
+    }
+}
